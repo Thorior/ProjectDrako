@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "test_character.generated.h"
+#include "TestPlayer1.generated.h"
 
 UCLASS()
-class PROJECTDRAKO_API Atest_character : public ACharacter
+class PROJECTDRAKO_API ATestPlayer1 : public ACharacter
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this character's properties
-	Atest_character();
+	ATestPlayer1();
 
 protected:
 	// Called when the game starts or when spawned
